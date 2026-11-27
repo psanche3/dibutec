@@ -1,0 +1,11 @@
+
+
+Crear libreria para UI testing
+	const DELAY = .1
+	await wait(DELAY) // 4*DELAY en el caso de las acciones de teclado
+
+	// Fer clic en 
+	click(x?: number, y?: number, e?: Element | string | null = null)
+	move(x?: number, y?: number, e?: Element | string | null = null)
+	write(t: string)	// Convertir \n y \t en KeyboardEvent --> teclas Intro y Tab
+

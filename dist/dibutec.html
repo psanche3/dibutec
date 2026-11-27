@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>DibuTec</title>
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/dibutec.css" />
+	<script type="module" src="./js/dibutec.js"></script>
+</head>
+
+<body>
+	<!-- Contenedor principal de toda la aplicación -->
+	<div class="app">
+
+		<!-- Zona superior -->
+		<header class="top">
+			<div class="main-menu">
+				<!-- Menú principal -->
+				Menú principal
+			</div>
+
+			<div class="main-toolbar">
+				<!-- Barra de herramientas principal -->
+				Barra d'eines principal
+			</div>
+		</header>
+
+
+		<!-- Zona central -->
+		<main class="middle">
+
+			<!-- Panel lateral izquierdo -->
+			<aside class="left-sidebar">
+				<div class="vertical-toolbar">
+					<!-- Toolbar 1 -->
+					BL1
+				</div>
+
+				<div class="vertical-toolbar">
+					<!-- Toolbar 2 -->
+					BL2
+				</div>
+			</aside>
+
+
+			<!-- Área central de trabajo -->
+			<section id="workspace" class="workspace">
+				<!-- Contenido principal de la aplicación -->
+				<svg id="drawing" xmlns="http://www.w3.org/2000/svg">
+				    <g id="grid"></g>
+  				</svg>
+			</section>
+
+
+			<!-- Panel lateral derecho desplegable -->
+			<aside class="right-sidebar">
+				<!-- Lista de elementos -->
+				Desplegable<br>
+				<button id="test">Test</button>
+			</aside>
+
+		</main>
+
+
+		<!-- Zona inferior -->
+		<footer class="bottom">
+
+			<!-- Área de mensajes / entrada -->
+			<section class="input-area">
+				<div class="message">
+					<!-- Instrucciones o mensajes -->
+					Missatges
+				</div>
+
+				<div class="input-container">
+					<input id="command" type="text" placeholder="Intro dades"/>
+				</div>
+			</section>
+
+
+			<!-- Área de datos -->
+			<section class="data-area">
+				<div class="data-item">
+					<!-- Datos 1 -->
+					Posició X,Y
+				</div>
+
+				<div class="data-item">
+					<!-- Datos 2 -->
+					Distància/Angle
+				</div>
+			</section>
+
+		</footer>
+
+	</div>
+</body>
+
+</html>

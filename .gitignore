@@ -1,0 +1,19 @@
+# Ignorar tot per defecte
+/*
+
+# Permetre les carpetas del projecte
+!/src
+!/dist
+
+# Permetre el contingut de les carpetas del projecte
+!/src/**
+!/dist/**
+
+# Ignorar arxius .map
+/dist/**/*.js.map
+
+# Permetre aquests arxius de l'arrel
+!/.gitignore
+!/package.json
+!/TODO.txt
+!/README.md
